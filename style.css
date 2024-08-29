@@ -153,28 +153,15 @@
     height: 650px;
     display: flex;
     margin-left: 50px;
-    overflow-x: auto;
     aspect-ratio: 19/9;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem ;
-    border-radius: 5rem;
-   overflow: hidden;
 
 
   }
-  .slider img{
-    flex: 1 0 100%;
-    scroll-snap-align: start;
+  .slider video{
+    flex: 100 0 100%;
   }
-  .slider-nav{
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  
   .gallery{
     margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -261,5 +248,6 @@ transform: scale(1.2);
         transform: scale(1.2);
 
           }
+
 
   
